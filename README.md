@@ -20,18 +20,17 @@
 ```
 
 __Beginning__
-* Find the element with the id of status and change the message to something warm and uplifting.
-* Find the h1 tag and change the header to “A Stellar Record of My Performance”.
-* Change all of the elements with a class of student to your name.
+* Найдите элемент с id статуса и измените сообщение на что-то теплое и поднятое.
+* Найдите тег h1 для «Звездной записи моей работы». “A Stellar Record of My Performance”.
+* Измените все элементы с классом `student` на свое имя.
 
 
 _Intermediate_
-* Find all of the elements with the class of grade. Iterate through all of them and change their content to “A+”s.
-* Can you create a function that takes an HTML element as an argument and capitalizes its contents?
+* Найдите все элементы с классом `grade`. Пройдите через все из них и измените их содержимое на «5 +»..
+* Создайте функцию, которая принимает элемент HTML в качестве аргумента и печатает прописными буквами его содержимое?
 
 _Challenging_
-Select an element and set contentEditable to true. Now, click on the element. What happened?
-
+Выберите любой элемент и установите для `contentEditable` значение `true`. Теперь нажмите на элемент. Что случилось?
 
 ### Релиз 1.
 
@@ -60,11 +59,11 @@ Here is MDN’s master list of DOM events. Most of them are rare birds. Can you 
 
 If that list overwhelms you, here is a artisinal, hand-crafted list:
 
-*`mouseenter`
-*`mouseleave`
-*`dblclick`
-*`keydown`
-*`keyup`
+-`mouseenter`
+-`mouseleave`
+-`dblclick`
+-`keydown`
+-`keyup`
 
 
 ### Релиз 2. Changing Styles Programmatically
@@ -135,15 +134,14 @@ _HTML_
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset=utf-8 />
-<title>Change the content of a cell</title>
-<style type="text/css">
-body {margin: 30px;}
+  <meta charset=utf-8 />
+  <title>Change the content of a cell</title>
+  <style type="text/css">
+  body {margin: 30px;}
 </style>  
 </head><body>
-<table id="myTable" border="1">
-</table><form>
-<input type="button" onclick="createTable()" value="Create the table">
-</form></body></html>
+  <table id="myTable" border="1">
+  </table><form>
+    <input type="button" onclick="createTable()" value="Create the table">
+  </form></body></html>
 ```
-
